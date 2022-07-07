@@ -22,6 +22,7 @@
   "homepage": "https://github.com/jayexprs/navigation#readme",
   "dependencies": {
     "@astrojs/solid-js": "^0.2.0",
-    "astro": "^1.0.0-beta.64"
+    "astro": "^1.0.0-beta.64",
+    "solid-js": "1.4.6"
   }
 }

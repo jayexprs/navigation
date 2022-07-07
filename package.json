@@ -1,0 +1,27 @@
+{
+  "name": "navigation",
+  "version": "1.0.0",
+  "description": "A an interactive, code-based prototype AKA codotype built with Astro and SolidJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayexprs/navigation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayexprs/navigation/issues"
+  },
+  "homepage": "https://github.com/jayexprs/navigation#readme",
+  "dependencies": {
+    "@astrojs/solid-js": "^0.2.0",
+    "astro": "^1.0.0-beta.64"
+  }
+}

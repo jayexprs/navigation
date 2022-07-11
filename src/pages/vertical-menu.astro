@@ -1,5 +1,8 @@
 ---
 import VerticalMenu from "../components/vertical-menu";
 import NAV from '../NAV.js';
+import SiteLayout from "../layouts/SiteLayout.astro";
 ---
-<VerticalMenu tree={NAV} />
+<SiteLayout>
+  <VerticalMenu tree={NAV} />
+</SiteLayout>

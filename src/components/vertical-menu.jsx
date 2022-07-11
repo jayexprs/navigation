@@ -1,14 +1,17 @@
-function VerticalMenu(tree) {
-  for (branch of tree) {
-    if (branch.links.length) {
-      <ul>
-        {branch.name}
-        <For items={branch.links}>
-          <li>{item}</li>
-        </For>
-      </ul>;
-    } else {
-    }
-  }
+function VerticalMenu(props) {
+  const tree = () => props.tree;
+  return(
+  <ul class='list'>
+    <For each={tree()}>{(branch) =>  
+      {if (!branch.links.length){
+        return <li>{branch.name}</li>
+      }
+      else {
+        return <li>{branch.name}<VerticalMenu tree={[...branch.links]}/></li>
+      }
+      }}
+    </For>
+  </ul>
+  );
 }
 export default VerticalMenu;

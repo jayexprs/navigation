@@ -23,8 +23,16 @@ body {
 .wrapper {
   margin: 6px;
 }
-.wrapper h1 {
+.wrapper h1, h2 {
   font-family: 'Architects Daughter', cursive;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: #ffcd00;
+}
+.list {
+  padding-left: 10px;
+  list-style-type: disc;
+  margin-left: 10px;
+}
+ul {
+  all: revert;
 }

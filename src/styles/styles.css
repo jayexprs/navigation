@@ -21,12 +21,22 @@ body {
   margin: 6px;
 }
 .wrapper {
-  margin: 6px;
+  width: 100vw;
 }
-.wrapper h1, h2 {
+.forge-tang {
+  margin: 20px;
+}
+.hero {
+  margin: 0 auto;
+  width: 50%;
+}
+.hero h1, h2 {
   font-family: 'Architects Daughter', cursive;
   text-transform: uppercase;
   color: #ffcd00;
+}
+h2 {
+  font-size: 1.5rem;
 }
 .list {
   padding-left: 10px;

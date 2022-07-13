@@ -1,4 +1,4 @@
-export default NAV = [
+export default MENU = [
     {name: 'top 1', links: []},
     {name: 'top 2', links: []},
     {name: 'top 3', links: [

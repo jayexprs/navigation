@@ -20,6 +20,12 @@ body {
 .nav {
   margin: 6px;
 }
+.nav a {
+  margin-left: 4px;
+}
+.nav .current-nav {
+  text-decoration: dashed underline;
+}
 .wrapper {
   width: 100vw;
 }

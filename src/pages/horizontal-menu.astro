@@ -4,5 +4,13 @@ import MENU from '../components/menus/MENU.js';
 import SiteLayout from "../layouts/SiteLayout.astro";
 ---
 <SiteLayout>
+  <div class="shelf">
   <HorizontalMenu tree={MENU} />
+</div>
 </SiteLayout>
+<style>
+  .shelf {
+    display: flex;
+    gap: 8px;
+  }
+</style>

@@ -14,6 +14,14 @@ body {
   font-size: clamp(1rem, var(--user-font-scale), 2rem);
 }
 
+.box {
+  height: 200px;
+  width: 200px;
+  border: 1px solid white;
+  border-radius: 12px;
+  text-align: center;
+}
+
 .colors {
   background-color: #fca104;
 }

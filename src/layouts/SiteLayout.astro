@@ -3,7 +3,7 @@ import '../styles/styles.css';
 import '../styles/reset.css';
 import '../styles/normalize.css';
 import SiteNav from '../components/site-nav.jsx';
-import SITE from '../components/site';
+import site from '../components/site';
 const url = new URL(Astro.request.url);
 ---
 <html lang="en">
@@ -17,7 +17,7 @@ const url = new URL(Astro.request.url);
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
 </head>
 <body>
-  <SiteNav where={url} menu={SITE}/>
+  <SiteNav where={url} menu={site}/>
   <slot />
 </body>
 </html>

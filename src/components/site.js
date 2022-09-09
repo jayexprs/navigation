@@ -1,4 +1,4 @@
-export default SITE = [
+export default site = [
   {space: 'Overview', links: ['/']},
   {space: 'Vertical Menu', links: ['/vertical-menu']},
   {space: 'Horizontal Menu', links: ['/horizontal-menu']},
